@@ -4,7 +4,7 @@
 This project is an example of a lightweight authentication system built using the following technologies:
 
 -   **Hono Framework**: A fast web framework for the Edge.
--   masfana-mongodb-api-sdk](https://www.npmjs.com/package/masfana-mongodb-api-sdk?activeTab=readme): A MongoDB API SDK for handling MongoDB operations.
+-   [masfana-mongodb-api-sdk](https://www.npmjs.com/package/masfana-mongodb-api-sdk?activeTab=readme): A MongoDB API SDK for handling MongoDB operations.
 -   **Cloudflare Workers**: Serverless execution environment for running apps at the Edge.
 -   **Hono Sessions**: Middleware to manage user sessions stored as cookies.
 
