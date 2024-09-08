@@ -1,0 +1,20 @@
+{
+  "name": ".",
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy --minify src/index.ts"
+  },
+  "dependencies": {
+    "@types/jsonwebtoken": "^9.0.6",
+    "bcrypt": "^5.1.1",
+    "google-auth-library": "^9.14.1",
+    "hono": "^4.5.11",
+    "hono-sessions": "^0.5.8",
+    "jose": "^5.8.0",
+    "masfana-mongodb-api-sdk": "^1.0.4"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240903.0",
+    "wrangler": "^3.75.0"
+  }
+}
